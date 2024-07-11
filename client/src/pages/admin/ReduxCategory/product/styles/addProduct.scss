@@ -1,0 +1,10 @@
+.--sidebar-wrapper-dashboard-addProduct {
+  background-color: #550e02;
+  height: 1065px;
+}
+
+@media only screen and (max-width: 992px) {
+  .--sidebar-wrapper-dashboard-addProduct {
+    display: none;
+  }
+}

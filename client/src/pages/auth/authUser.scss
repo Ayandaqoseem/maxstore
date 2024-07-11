@@ -1,0 +1,66 @@
+/* Register */
+.wrapper-container-login-reg {
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+                    
+                  }
+                  .img-side {
+                    background-image: url(../..//assets/img_1.svg);
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    margin-top: 8px;
+                    height: 80vh;
+                  }
+                  .card-container{
+                    width: 50%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  }
+                  .card-container .card {
+                    width: 100%;
+                    height: 400px;
+                    margin: 3rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-end;
+                    border: 2px solid var(--color-brown);
+                  }
+                  .form-container {
+                    padding-bottom: 2rem;
+                    width: 80%;
+                  }
+                  input.form-control:focus {
+                      border: none;
+                      outline: 2px solid var(--color-brown) !important;
+                      box-shadow: 0 0 5px var(--color-brown);
+                  }
+                  
+                  @media (min-width: 770px) and (max-width: 950px) {
+                    .wrapper-container-login-reg {
+                      height: 90vh;
+                    }
+                    .img-side {
+                      height: 100vh;
+                    }
+                  }
+                  @media only screen and (max-width: 770px) {
+                    .wrapper-container-login-reg {
+                      height: 90vh;
+                    }
+                    .img-side {
+                      display: none;
+                    }
+                    .card-container {
+                      width: 100%;
+                      margin: 3rem 0 0 0;
+                    }
+                  }
+                 
+                  
+                  @media  (max-width: 400px) {
+                    .card-container .card {
+                    margin: 0 !important;
+                   }
+                  }

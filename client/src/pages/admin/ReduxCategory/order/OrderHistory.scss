@@ -1,0 +1,28 @@
+.orderAdmin-wrapper {
+  margin-top: 2rem;
+  tr {
+    cursor: pointer;
+  }
+}
+
+.pending {
+  color: orangered;
+  font-weight: 500;
+}
+.delivered {
+  color: rgb(0, 177, 0);
+  font-weight: 500;
+}
+
+@media (max-width: 772px) {
+  .d-wrapper-orderAdmin {
+    height: 145vh;
+  }
+}
+
+
+// @media (max-width: 500px) {
+//   .order-details-container {
+//     height: 140vh;
+//   }
+// }

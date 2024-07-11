@@ -1,0 +1,26 @@
+.search {
+    margin: 5px 0;
+    position: relative;
+    flex: 1 !important;
+    // background-color: blue !important;
+    height: 50px;
+}
+.icon {
+    position: absolute;
+    top: 80%;
+    left: 1rem;
+    transform: translateY(-50%);
+    color: var(--color-brown);
+}
+input.inputHolder {
+    display: block;
+    outline: none;
+    padding: 0.5rem;
+    padding-left: 3rem;
+    width: 100%;
+    font-size: 1.2rem;
+    font-weight: 300;
+    margin: 1rem 0;
+    border: 1px solid var(--color-brown);
+    border-radius: 3px;
+}

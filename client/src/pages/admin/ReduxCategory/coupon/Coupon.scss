@@ -1,0 +1,46 @@
+.--sidebar-wrapper-dashboard-coupon {
+  background-color: #550e02;
+  height: 683px;
+}
+
+.--sidebar-wrapper-dashboard-coupon-col {
+  overflow-y: scroll;
+  height: 600px;
+}
+
+@media only screen and (max-width: 992px) {
+  .--sidebar-wrapper-dashboard-coupon {
+    display: none;
+  }
+
+ 
+}
+
+.card-wrapper {
+  width: 40%;
+  .datePicker-container {
+    margin: 0 200px 3px 0;
+  }
+}
+@media (min-width: 440px) and (max-width: 645px) {
+  .datePicker-container {
+    margin: 0 400px 3px 0 !important;
+  }
+}
+@media (min-width: 645px) and (max-width: 755px) {
+  .datePicker-container {
+    margin: 0 500px 3px 0 !important;
+  }
+}
+@media (max-width: 755px) {
+  .card-wrapper {
+    width: 100%;
+  }
+}
+
+// couponList
+// @media (max-width: 995px) {
+//                     .couponList-wrapper{
+//                                         margin-bottom: 10px;
+//                     }
+// }

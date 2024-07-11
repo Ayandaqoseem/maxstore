@@ -1,0 +1,13 @@
+.wallet-container {
+  height: 57vh;
+}
+.wallet-info {
+  padding: 1rem;
+  border-color: var(--color-brown);
+}
+
+@media only screen and (max-width: 771px) {
+  .wallet-container {
+    height: 70vh;
+  }
+}

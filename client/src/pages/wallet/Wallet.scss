@@ -1,0 +1,66 @@
+.d-wrapper-wallet {
+  height: 90vh;
+}
+.wallet-info-container {
+  margin-top: 2.5rem;
+}
+.wallet {
+  .wallet-data {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .wallet-info {
+    width: 35%;
+    padding: 1rem;
+    border-color: var(--color-brown);
+  } 
+  .wallet-promo {
+    width: 65%;
+    height: 175px;
+    padding: 1rem;
+    .payment-img {
+      width: 300px;
+    }
+  }
+  .wallet-text {
+    width: 65%;
+  }
+  .text-header {
+    color: var(--color-brown);
+  }
+  .wallet-img {
+    width: 35%;
+  }
+}
+
+
+
+
+@media (min-width: 270px) and (max-width: 700px) {
+  .d-wrapper-wallet {
+    height: 165vh !important;
+    .wallet-data {
+      display: flex;
+      flex-direction: column;
+      .wallet-info { 
+        width: 100% !important;
+      }
+      .wallet-promo {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+@media (max-width: 992px) {
+  .d-wrapper-wallet {
+    width: 100% !important;
+    height: 150vh;
+  }
+  .wallet {
+   
+    .payment-img {
+      width: 200px !important;
+    }
+  }
+}

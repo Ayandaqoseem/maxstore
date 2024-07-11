@@ -1,0 +1,16 @@
+.extra-style-brand {
+  background-color: #550e02;
+  height: 952px;
+}
+
+.extra-style-brand-col {
+  overflow-y: scroll;
+  height: 707px;
+}
+
+@media only screen and (max-width: 992px) {
+  .extra-style-brand {
+    display: none;
+  }
+
+}

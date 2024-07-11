@@ -1,0 +1,19 @@
+div.infoBoxes {
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.infoBox {
+    width: 23rem;
+    height: auto;
+    display: flex;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    cursor: pointer;
+}
+div.icon {
+    width: 35%;
+}
+div.text {
+    font-size: 1.8rem;
+    font-weight: 500;
+}

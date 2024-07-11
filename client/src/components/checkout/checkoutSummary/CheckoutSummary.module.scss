@@ -1,0 +1,19 @@
+.card {
+  width: 100%;
+  max-width: 500px;
+  padding: 1rem;
+  border: 1px solid var(--color-brown);
+  margin-bottom: 5px;
+  h5 {
+    font-weight: 500;
+  }
+}
+
+.text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h4 {
+    color: red;
+  }
+}

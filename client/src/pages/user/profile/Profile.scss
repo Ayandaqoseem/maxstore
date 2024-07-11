@@ -1,0 +1,129 @@
+.d-wrapper-profile {
+                    height: 110vh;
+                    .profile-menu {
+                      height: 680px !important;
+                    }
+                  }
+                  .profile {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                  
+                    .card {
+                      width: 100%;
+                      max-width: 900px;
+                      padding: 1rem;
+                      border: 1px solid var(--color-brown);
+                      .details-wrapper {
+                        position: relative;
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        .profile-photo {
+                          width: 30%;
+                          height: 350px;
+                          background-color: var(--color-brown);
+                          padding: 1rem;
+                          display: flex;
+                          justify-content: center;
+                          //         align-items: center;
+                          margin-bottom: 1rem;
+                  
+                          & img {
+                            width: 200px;
+                            height: 200px;
+                            border: 2px solid #fff;
+                            border-radius: 50%;
+                          }
+                          h4 {
+                            text-align: center;
+                            margin-top: 0.5rem;
+                            color: #fff;
+                          }
+                          .upload-button {
+                            display: flex;
+                            justify-content: center;
+                          }
+                          .image-input {
+                            position: absolute;
+                            p {
+                              display: flex;
+                              flex-direction: column;
+                              color: #fff;
+                  
+                              label {
+                                margin-left: 50px;
+                                margin-bottom: 0.5rem;
+                              }
+                              input {
+                                margin-left: 0px;
+                              }
+                            }
+                          }
+                        }
+                      }
+                      form {
+                        width: 50%;
+                        label {
+                          display: block;
+                          font-weight: 400;
+                        }
+                        input[type="text"],
+                        input[type="file"],
+                        input[type="email"] {
+                          display: block;
+                          width: 100%;
+                          padding: 1rem;
+                          font-weight: 300;
+                          outline: none;
+                          border: 1px solid #777;
+                          border-radius: 3px;
+                        }
+                      }
+                    }
+                  }
+                  
+                  @media (min-width: 700px) and (max-width: 900px) {
+                    .profile-photo {
+                      width: 40% !important;
+                    }
+                  }
+                  @media (max-width: 700px) {
+                    .d-wrapper-profile {
+                      height: 180vh;
+                    }
+                    .card {
+                      width: 60% !important;
+                      max-width: 400px;
+                    }
+                    .details-wrapper {
+                      flex-direction: column;
+                      align-items: center;
+                      width: 100% !important;
+                    }
+                    .profile-photo {
+                      width: 80% !important;
+                    }
+                    form {
+                      width: 100% !important;
+                      input[type="text"],
+                      input[type="file"],
+                      input[type="email"] {
+                        display: block;
+                        width: 100% !important;
+                        padding: 1rem;
+                        font-weight: 300;
+                        outline: none;
+                        border: 1px solid #777;
+                        border-radius: 3px;
+                      }
+                    }
+                    
+                  }
+                  
+                  @media (min-width: 318px) and (max-width: 550px) {
+                    .card {
+                      width: 100% !important;
+                    }
+                  }
+                  

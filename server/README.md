@@ -1,0 +1,1 @@
+# maxstore-frontend-app

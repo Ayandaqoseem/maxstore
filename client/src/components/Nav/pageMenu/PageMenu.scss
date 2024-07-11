@@ -1,0 +1,31 @@
+.home-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  gap: 4rem;
+}
+
+li a {
+  color: var(--color-brown);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.home-links li .active {
+  border: none;
+  border-radius: 0;
+  border-bottom: 2px solid var(--color-brown) !important;
+  // width: fit-content;
+}
+
+@media (max-width: 450px) {
+  .home-links {
+    gap: 1rem;
+   padding-left: 0;
+  }
+
+  li a {
+                    font-size: 1rem;
+  }
+}

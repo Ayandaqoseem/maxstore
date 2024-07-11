@@ -1,0 +1,31 @@
+.filter {
+  h5 {
+    margin-top: 1rem;
+  }
+  .category button {
+                    display: block;
+                    text-align: left;
+                    width: 80%;
+                    height: 3rem;
+                    border: none;
+                    background-color: transparent;
+                    cursor: pointer;
+                    border-bottom: 1px solid #777;
+  }
+}
+
+.brand {
+  select {
+    width: 80%;
+    padding: 5px;
+    font-weight: 500;
+    outline: none;
+    border: 1px solid #777;
+    border-radius: 3px;
+  }
+}
+
+.price {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
